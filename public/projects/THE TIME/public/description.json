@@ -1,4 +1,7 @@
 {
     "name": "THE TIME",
-    "description": "A TIME KEEPER OF SORTS"
+    "description": "A TIME KEEPER OF SORTS, IN ONLY CSS",
+    "image": "http://ebbmogardinger.com/pf/img/thetime.png",
+    "techs": "HTML, CSS",
+    "code": "https://github.com/kajate/Portfolio/tree/master/public/projects/THE%20TIME/public"
 }

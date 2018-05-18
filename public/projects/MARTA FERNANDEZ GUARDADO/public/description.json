@@ -1,4 +1,7 @@
 {
     "name": "MARTA FERNANDEZ GUARDADO",
-    "description": "A PORTFOLIO FOR ARCHITECHT MARTA FERNANDEZ GUARDADOS PHD"
+    "description": "A PORTFOLIO FOR ARCHITECHT MARTA FERNANDEZ GUARDADOS PHD",
+    "image": "http://ebbmogardinger.com/pf/img/marta.png",
+    "techs": "HTML, CSS, Javascript, Jquery",
+    "code": "https://github.com/kajate/Portfolio/tree/master/public/projects/MARTA%20FERNANDEZ%20GUARDADO/public"
 }

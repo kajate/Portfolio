@@ -1,4 +1,7 @@
 {
     "name": "HOUSE",
-    "description": "A SCROLLORFUL EXPERIENCE"
+    "description": "A SCROLLORFUL EXPERIENCE",
+    "techs": "HTML, CSS",
+    "image": "http://ebbmogardinger.com/pf/img/house.png",
+    "code": "https://github.com/kajate/Portfolio/tree/master/public/projects/HOUSE/public"
 }

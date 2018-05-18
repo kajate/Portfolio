@@ -1,6 +1,7 @@
 {
     "name": "CONNECT FOUR",
     "description": "A TAKE ON THE OLD CLASSIC CONNECT FOUR",
-    "image": "",
-    "techs": "HTML, CSS, Javascript, Jquery"
+    "image": "http://ebbmogardinger.com/pf/img/connectfour.png",
+    "techs": "HTML, CSS, Javascript, Jquery",
+    "code": "https://github.com/kajate/Portfolio/tree/master/public/projects/CONNECT%20FOUR/public"
 }

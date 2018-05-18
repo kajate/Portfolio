@@ -22,7 +22,7 @@ app.get("/projects/:name/public/description", (req, res) => {
     // res.send(`<h1>${req.params.name}</h1>`);
     var projects = fs.readdirSync(__dirname + "/public/projects");
     var links = __dirname + "/public/projects/";
-    var src = req.params.name + ".png";
+    // var src = req.params.name + ".png";
     var obj = require(links + req.params.name + "/public/description.json");
     res.render("other", {
         name: req.params.name,
@@ -30,10 +30,11 @@ app.get("/projects/:name/public/description", (req, res) => {
         link: links,
         url: req.url.replace("description", ""),
         layout: "main",
-        imgSrc: src,
+        imgSrc: obj.image,
         title: obj.name,
         desc: obj.description,
-        techs: obj.techs
+        techs: obj.techs,
+        code: obj.code
     });
 });
 

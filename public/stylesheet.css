@@ -26,6 +26,11 @@ a {
 .menu::-webkit-scrollbar-thumb {
   background-color: black;
 }
+/*
+img.right {
+    float:left;
+    display: inline;
+} */
 
 .tags {
     padding-left: 5px;
@@ -76,6 +81,11 @@ h2 {
     font-weight: bold;
 }
 
+a.h3 {
+    display: inline;
+    margin: 10px;
+}
+
 .container {
     padding-left: 10px;
     padding-right: 10px;
@@ -85,12 +95,12 @@ h2 {
     overflow: scroll;
     overflow-x: hidden;
     overflow-y: auto;
-    border: 1px solid black;
+    /* border: 1px solid black; */
     margin:5px;
 }
 
 .description {
-    border: 1px solid black;
+    /* border: 1px solid black; */
     padding-left: 5px;
     padding-right: 5px;
     font-size: 8px;
@@ -99,10 +109,12 @@ h2 {
 
 .description img {
     margin: 0 auto;
+    margin-top: 10px;
     border: 0px solid black;
     /* object-fit: contain; */
     max-height:60vh;
     max-width: 100%;
+     box-shadow: 0px 0.5px 1.5px lightgray;
 }
 
 @media (max-width: 850px) {
@@ -112,6 +124,7 @@ h2 {
   }
 
   .menu {
+      box-shadow: 0px 0.5px 2.5px lightgray;
       height: 120px;
      grid-column: 1;
      grid-row: 1;
