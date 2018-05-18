@@ -1,0 +1,145 @@
+* {
+    font-family: courier;
+    font-weight: 200;
+}
+
+body{
+    max-width: 960px;
+    margin: 0 auto;
+}
+
+a {
+    font-size: 14px;
+    text-decoration: none;
+    color: black;
+    width: 100%;
+}
+
+.menu::-webkit-scrollbar {
+    width: 26px;
+}
+
+.menu::-webkit-scrollbar-track {
+    border: 0px solid black;
+}
+
+.menu::-webkit-scrollbar-thumb {
+  background-color: black;
+}
+
+.tags {
+    padding-left: 5px;
+    width: 100%;
+    margin: 0;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    background-color: white;
+}
+
+.tags:hover {
+    padding-left: 5px;
+    width: 100%;
+    margin: 0;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    filter: invert(100%);
+}
+
+.description a {
+    font-size: 14px;
+    background-color: white;
+}
+
+.description a:hover {
+    font-weight: bold;
+    filter: invert(100%);
+}
+
+a:active {
+    font-weight: bold;
+}
+
+
+h3, h4, h5, h5 {
+    padding-top: 5px;
+    padding-bottom: 5px;
+    font-size: 14px;
+    margin: 0;
+}
+
+h1 {
+    margin-top: 10px;
+    padding: 10px;
+}
+
+h2 {
+    font-weight: bold;
+}
+
+.container {
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+.menu {
+    overflow: scroll;
+    overflow-x: hidden;
+    overflow-y: auto;
+    border: 1px solid black;
+    margin:5px;
+}
+
+.description {
+    border: 1px solid black;
+    padding-left: 5px;
+    padding-right: 5px;
+    font-size: 8px;
+    margin: 5px;
+}
+
+.description img {
+    margin: 0 auto;
+    border: 0px solid black;
+    /* object-fit: contain; */
+    max-height:60vh;
+    max-width: 100%;
+}
+
+@media (max-width: 850px) {
+  main {
+    display: grid;
+    grid-template-columns: 1fr;
+  }
+
+  .menu {
+      height: 120px;
+     grid-column: 1;
+     grid-row: 1;
+  }
+
+  .description {
+    padding-left: 10px;
+    padding-right: 10px;
+    grid-column: 1;
+    grid-row: 2;
+  }
+}
+
+@media (min-width: 850px) {
+  main {
+    display: grid;
+    grid-template-columns: 3fr 8fr;
+  }
+
+  .menu{
+     grid-column: 1;
+     grid-row: 1;
+  }
+
+  .description {
+    padding-left: 40px;
+    padding-right: 40px;
+    grid-column: 2;
+    grid-row: 1;
+  }
+}

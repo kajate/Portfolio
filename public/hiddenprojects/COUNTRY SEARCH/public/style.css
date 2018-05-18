@@ -1,0 +1,57 @@
+#search {
+    position: relative;
+    max-width: 400px;
+    z-index: 99;
+    margin: 0 auto;
+}
+
+#search input {
+    height: 45px;
+    font-size: 20px;
+    padding: 10px;
+    width: 100%;
+    border: none;
+    box-shadow: 2px 2px 5px lightgray;
+}
+
+#results {
+    position: absolute;
+    height: auto;
+    width: 90%;
+    font-size: 20px;
+    padding: 10px;
+    margin-bottom: 10px;
+    box-shadow: 2px 2px 5px lightgray;
+    font-family: helvetica;
+    background-color: white;
+    border-radius: 5px;
+}
+
+.container {
+    margin: 0 auto;
+    padding: 20px;
+    max-width: 960px;
+    width: 70vW;
+}
+
+h1 {
+    margin: 0;
+        z-index: 1;
+}
+
+#information {
+    font-family: helvetica;
+    font-weight: 200;
+    font-size: 20;
+    z-index: 1;
+}
+
+.highlight {
+    background-color: thistle;
+    color: seagreen;
+}
+
+#map {
+    width: 960px;
+    height: 500px;
+}

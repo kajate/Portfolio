@@ -1,0 +1,106 @@
+* {
+    margin: 0;
+}
+
+.container {
+    display: flex;
+    margin: 0 auto;
+    width: 100vw;
+    height: 100vh;
+}
+
+.column {
+    display: inline-block;
+    width: 13.92%;
+    margin: 0 auto;
+    max-width: 500px;
+}
+
+.slot {
+    height: 16.67vh;
+    margin-top: 2%;
+}
+
+.startScreen {
+    position: absolute;
+    width: 100px;
+    height: 50px;
+    top: 45%;
+    left: 49%;
+    margin-left: -50px; /* margin is -0.5 * dimension */
+    margin-top: -25px;
+}
+
+.button {
+    text-align: center;
+    border: 2px solid black;
+    background-color: white;
+    margin: 0 auto;
+    padding: 10px;
+    font-family: helvetica;
+    font-weight: 550;
+    color: black;
+    width: 100px;
+}
+
+.button:hover {
+    box-shadow: 2px 3px 0px black;
+    margin: 0 auto;
+    font-family: helvetica;
+    font-weight: 550;
+    color: black;
+    width: 100px;
+}
+
+.button:active {
+    margin: 0 auto;
+    padding: 10px;
+    font-family: helvetica;
+    font-weight: 550;
+    color: black;
+    width: 100px;
+    transform: translateX(-2px);
+    transform: translateY(2px);
+    box-shadow: 0.5px 0.5px 1px gray;
+}
+
+.winscreen {
+    position: absolute;
+    width: 100px;
+    height: 50px;
+    top: 45%;
+    left: 49%;
+    margin-left: -50px; /* margin is -0.5 * dimension */
+    margin-top: -25px;
+    font-family: helvetica;
+}
+
+.name {
+    position: absolute;
+    font-size: 20px;
+    font-family: helvetica;
+    background-color: white;
+    left: 20%;
+    padding: 10px;
+    width: auto;
+    height: 50px;
+    margin-left: -50px; /* margin is -0.5 * dimension */
+
+    border: 1px solid black;
+}
+
+.back {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(10, 10, 10, 0);
+}
+
+.backTrans {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(255, 255, 255, 0);
+}

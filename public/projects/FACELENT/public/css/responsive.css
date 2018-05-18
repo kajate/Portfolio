@@ -1,0 +1,282 @@
+				/*RESPONSIVE SCREENS*/
+
+
+@media (max-width: 550px) {
+
+	.content {
+		margin: 0;
+		padding: 0 !important
+	}
+
+	.content img {
+		width: 27%;
+		display: inline-block;
+	}
+
+	.dropmenu, .dropmenu2 {
+		float: right;
+		display: inline-block;
+		text-align: right;
+		padding-right: 10px !important;
+	}
+
+	.letter {
+		padding-left: 0px;
+		padding-right: 0px;
+	}
+
+	.logo {
+		background-repeat:no-repeat;
+   	 	background-position:20px 20px;
+   	 	background-size: 100px 130px;
+		position: fixed;
+		width: 120px;
+		height: 150px;	
+		margin-bottom: 10px;
+		overflow: hidden !important;
+}
+
+	.menu {
+		text-align: right;
+		right:40px;
+		top:0;
+		position: fixed;
+		padding-right: 10px;
+		padding-top: 0px;	
+		border-left: none;
+		border-right: 2px solid #00ff12;
+	}
+
+		.sed {
+	background-color: white;
+	box-shadow: -1px -1px 10px rgba(0,0,0,0.3);
+	height:auto;
+	margin-right: auto;
+	margin-left: 0px;
+	max-width: 85%;
+	padding-top: 60px;
+	padding-left: 5px !important;
+	padding-right: 5px !important;
+	padding-bottom: 10px !important;
+	position:fixed;
+	}
+
+	#start {
+		margin-right: 10px;
+		margin-left: 10px;
+		padding: 0px;
+		overflow: hidden !important;
+	}
+
+	#start img {
+		display: inline-block;
+		padding: 0px;
+		width: 44%;
+	}
+}
+
+
+@media (max-width: 375px) {
+
+	.content {
+		margin: 0;
+		padding: 0 !important
+	}
+
+
+	.dropmenu, .dropmenu2 {
+		float: right;
+		display: inline-block;
+		text-align: right;
+		padding-right: 10px !important;
+	}
+
+	.letter {
+		padding-left: 0px;
+		padding-right: 0px;
+	}
+
+	.menu {
+		text-align: right;
+		right:40px;
+		top:0;
+		position: fixed;
+		padding-right: 10px;
+		padding-top: 0px;	
+		border-left: none;
+		border-right: 2px solid #00ff12;
+	}
+
+		.sed {
+	background-color: white;
+	box-shadow: -1px -1px 10px rgba(0,0,0,0.3);
+	height:auto;
+	margin-right: auto;
+	margin-left: 0px;
+	max-width: 85%;
+	padding-top: 60px;
+	padding-left: 5px !important;
+	padding-right: 5px !important;
+	padding-bottom: 10px !important;
+	position:fixed;
+	}
+
+
+	#start {
+		margin-right: 10px;
+		margin-left: 10px;
+		padding: 0px;
+		overflow: hidden !important;
+	}
+
+	#start img {
+		display: inline-block;
+		padding: 0px;
+		width: 40%;
+	}
+}
+
+
+@media (max-width: 320px) {
+
+	.content {
+		margin: 0;
+		padding: 0 !important
+	}
+
+	.content img {
+		width: 27%;
+		display: inline-block;
+	}
+
+	.dropmenu, .dropmenu2 {
+		float: right;
+		display: inline-block;
+		text-align: right;
+		padding-right: 10px !important;
+	}
+
+	.letter {
+		padding-left: 0px;
+		padding-right: 0px;
+	}
+
+	.menu {
+		text-align: right;
+		right:40px;
+		top:0;
+		position: fixed;
+		padding-right: 10px;
+		padding-top: 0px;	
+		border-left: none;
+		border-right: 2px solid #00ff12;
+	}
+
+	.sed {
+	background-color: white;
+	box-shadow: -1px -1px 10px rgba(0,0,0,0.3);
+	height:auto;
+	margin-right: auto;
+	margin-left: 0px;
+	max-width: 85%;
+	padding-top: 60px;
+	padding-left: 5px !important;
+	padding-right: 5px !important;
+	padding-bottom: 10px !important;
+	position:fixed;
+	z-index: 99;
+}
+
+
+	#start {
+		margin-right: 10px;
+		margin-left: 10px;
+		padding: 0px;
+		overflow: hidden !important;
+	}
+
+	#start img {
+		display: inline-block;
+		padding: 0px;
+		width: 40%;
+	}
+}
+
+
+
+
+@media (max-width: 230px) {
+
+	.content {
+		margin: 0;
+		padding: 0 !important;
+	}
+
+	.content img {
+		width: 90%;
+		margin: 10px;
+	}
+
+	.dropmenu {
+		position: relative;
+		left:30 !important;
+		border:none;
+		text-align: left;
+	}
+
+	.logo {
+		margin-left: 0px;
+		padding-top: 0px;
+	}
+	.letter {
+		padding-left: 50px;
+		padding-right: 50px;
+	}
+
+	.menu {
+		margin-top:20px !important;
+		margin-bottom:20px !important;
+		position: relative;
+		border-left: 2px solid #00ff12;
+		border-right: none;
+		left:0;
+		text-align: left;
+		margin-top: 20px;
+	}
+
+	#people {
+
+		padding-top: 0px;
+		padding-left: 0px;
+		padding-right: 0px;
+	}
+
+	#people img {
+		width: 40%;	
+		padding-top: 0px;
+		padding-left: 0px;
+		padding-right: 0px;
+	}
+
+	#start img {
+		display: inline-block;
+		width: 70%;
+		padding-left: 0px;
+		margin: 10px;
+	}
+
+	.spacer{
+		height: 160px;
+		width: 100%;
+		overflow: hidden !important;
+	}
+
+	.spacer2{
+		height: 0px;
+		width: 100%;
+		overflow: hidden !important;
+	}
+}
+
+
+

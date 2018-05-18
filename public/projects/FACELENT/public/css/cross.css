@@ -1,0 +1,60 @@
+.cross {
+    position: absolute;
+    top:40;
+	right: 20;
+    cursor: pointer;
+    height: 30px;
+    background-color: transparent;
+    z-index:1 !important;
+}
+
+.bar1 {
+    width: 35px;
+    height: 6px;
+    background-color: black;
+    margin: -6px 0;
+    transition: 0.4s;
+    transform: rotate(-45deg);
+}
+
+.bar2 {
+    width: 35px;
+    height: 6px;
+    background-color: black;
+    margin: -6px 0;
+    transition: 0.4s;
+    transform: rotate(45deg);
+}
+
+.cross:hover {
+     top:30;
+    right: 10;
+    -webkit-transform: rotate(-360deg);
+    transform: rotate(-360deg);
+    zoom:120%;
+}
+
+.bar1:hover {
+    background-color: #00ff12;
+
+}
+
+.bar2:hover {
+    background-color: #00ff12;
+     -webkit-transform: rotate(-315deg);
+    transform: rotate(-315deg);
+}
+
+/* 
+.bar1:hover {
+    -webkit-transform: rotate(-360deg);
+    transform: rotate(-360deg);
+}
+
+ Fade out the second bar 
+.bar2:hover {
+
+	    -webkit-transform: rotate(360deg);
+    transform: rotate(360deg);
+}
+ */
