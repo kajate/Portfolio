@@ -37,6 +37,9 @@ app.get("/projects/:name/public/description", (req, res) => {
     });
 });
 
-app.listen(8080, () => {
-    console.log("hi am listening on port 8080");
-});
+// app.listen(8080, () => {
+//     console.log("hi am listening on port 8080");
+// });
+
+// for Heroku
+app.listen(process.env.PORT || 8080);
