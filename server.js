@@ -59,13 +59,10 @@ app.get("/projects/:name/public/description", (req, res) => {
         descthree: obj.descriptionthree,
         techs: obj.techs,
         code: obj.code,
-        file: obj.file
+        file: obj.file,
+        weburl: obj.weburl,
+        email: obj.email
     });
 });
 
-// app.listen(8080, () => {
-//     console.log("hi am listening on port 8080");
-// });
-
-// for Heroku
 app.listen(process.env.PORT || 8080);

@@ -1,7 +1,8 @@
 {
     "name": "FERNANDEZ GUARDADO",
-    "description": "A PORTFOLIO FOR ARCHITECHT MARTA FERNANDEZ GUARDADOS",
+    "description": "A PORTFOLIO FOR ARCHITECHT MARTA FERNANDEZ GUARDADO THAT GIVES YOU NEW COLORS EVERY TIME, SO MANY COLORS!",
     "image": "http://ebbmogardinger.com/pf/img/marta.png",
     "techs": "HTML, CSS, Javascript, Jquery",
-    "code": "https://github.com/kajate/Portfolio/tree/master/public/projects/MARTA%20FERNANDEZ%20GUARDADO/public"
+    "weburl": "http://www.fernandezguardado.com",
+    "code": "https://github.com/kajate/Fernandez-Guardado"
 }

@@ -167,7 +167,6 @@
             $(".backTrans").show();
             $(".winscreen")
                 .fadeIn(1000)
-                .append("<div class='name'>" + curCol + "won!" + "</div>");
         }, 1000);
     }
 

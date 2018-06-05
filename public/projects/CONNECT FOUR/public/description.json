@@ -3,5 +3,6 @@
     "description": "A TAKE ON THE OLD CLASSIC CONNECT FOUR",
     "image": "http://ebbmogardinger.com/pf/img/connectfour.png",
     "techs": "HTML, CSS, Javascript, Jquery",
-    "code": "https://github.com/kajate/Portfolio/tree/master/public/projects/CONNECT%20FOUR/public"
+    "weburl": "index.html",
+    "code": "https://github.com/kajate/Connect-Four"
 }

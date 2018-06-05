@@ -1,14 +1,9 @@
-<section class="menu">
-    {{#project}}
-    <a href="/projects/{{.}}/public/description"><p class="tags"> {{.}} </p></a>
-    {{/project}}
-</section>
-
-<section class="about">
+<section class="description">
     <h2>{{ name }}</h2>
         <h4>{{ desc }}</h4>
         <h4>{{ desctwo }}</h4>
             <h4>{{ techs }}</h4>
             <br>
-    <a href="{{url}}" target="_blank"><img src="{{imgSrc}}"></img></a>
+    <a href="{{ weburl }}" target="_blank"><img src="{{ imgSrc }}"></img></a>
+    <h3><a href="{{ code }}" target="_blank">Github <img src="/img/newwindow.svg" width="15px"></img></a></h3>
 </section>

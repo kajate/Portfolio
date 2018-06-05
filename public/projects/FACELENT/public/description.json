@@ -2,6 +2,7 @@
     "name": "FACELENT",
     "description": "A NEW LOOK AND WEBSITE FOR ACTOR/MODEL AGENCY FACELENT",
     "image": "http://ebbmogardinger.com/pf/img/facelent.png",
-    "techs": "HTML, CSS, Javascript, JQuery",
-    "code": "https://github.com/kajate/Portfolio/tree/master/public/projects/FACELENT/public"
+    "techs": "HTML, CSS, Javascript, JQuery, Adobe Suit",
+    "weburl": "http://www.facelent.com",
+    "code": "https://github.com/kajate/Facelent"
 }

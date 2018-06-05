@@ -1,0 +1,8 @@
+{
+    "name": "TIME",
+    "description": "A TIME KEEPER OF SORTS, MADE WITH ONLY CSS and HTML",
+    "image": "http://ebbmogardinger.com/pf/img/thetime.png",
+    "techs": "HTML, CSS",
+    "weburl": "index.html",
+    "code": "https://github.com/kajate/Time"
+}

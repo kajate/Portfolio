@@ -1,7 +1,8 @@
 {
     "name": "MINIMAGEBOARD",
     "description": "A MINIMALIST IMAGEBOARD",
-    "techs": "HTML, CSS, VUE.JS, NODE.JS, S3/AWS, SQL",
+    "techs": "HTML, CSS, Javascript, VUE.JS, NODE.JS, Express, S3/AWS, SQL",
     "image": "http://ebbmogardinger.com/pf/img/imageboard.png",
-    "code": "https://github.com/kajate/Portfolio/tree/master/public/projects/IMAGEBOARD/public"
+    "weburl": "http://minimageboard.herokuapp.com",
+    "code": "https://github.com/kajate/minimageboard/"
 }
