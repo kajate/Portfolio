@@ -1,0 +1,7 @@
+{
+    "name": "MINIMAGEBOARD",
+    "description": "A MINIMALIST IMAGEBOARD",
+    "techs": "HTML, CSS, VUE.JS, NODE.JS, S3/AWS, SQL",
+    "image": "http://ebbmogardinger.com/pf/img/imageboard.png",
+    "code": "https://github.com/kajate/Portfolio/tree/master/public/projects/IMAGEBOARD/public"
+}
