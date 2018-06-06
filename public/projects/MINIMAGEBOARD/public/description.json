@@ -3,6 +3,6 @@
     "description": "A MINIMALIST IMAGEBOARD",
     "techs": "HTML, CSS, Javascript, VUE.JS, NODE.JS, Express, S3/AWS, SQL",
     "image": "http://ebbmogardinger.com/pf/img/imageboard.png",
-    "weburl": "http://minimageboard.herokuapp.com",
+    "weburl": "https://vimeo.com/273703082",
     "code": "https://github.com/kajate/minimageboard/"
 }
